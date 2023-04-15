@@ -1,0 +1,136 @@
+*{  
+    margin: 0;      
+    padding: 0; 
+    box-sizing: border-box;
+}     
+        
+ html{   
+        font-size: 62.5;
+    }       
+body{   
+        font-family: 'Montserrat', sans-serif;  
+        background-color: #ffe5d9;
+    }
+ .menu{  
+    list-style-type: none;       
+    font-size: 15px;            
+}   
+
+.menu li{   
+    display: inline-block;
+}
+header{ 
+    display:flex;   
+    justify-content: space-between;   
+    background-color: #908acb;      
+    height: 70px;   
+    align-items: center;    
+    padding: 10px;
+}   
+
+.logo img{  
+    height: 65px;   
+    align-items: center;    
+    margin-right: 15px;   
+    margin-top: 1px;    /* imagen mal centrada */   
+
+}   
+
+a{  
+    text-decoration: none;
+    color: white;
+}   
+nav a{  
+    font-weight: 900;   
+    padding-right: 10px;
+    font-weight: bold;
+}   
+nav a:hover{    
+    color:black
+}   
+.logo{  
+    display: flex;  
+    align-items: center;    
+    margin-right: 15px; 
+    color: white;
+}
+
+.banner{        
+    background-image: url(../multimedia/banner.jpeg);   
+    background-position: center center; 
+    background-repeat: no-repeat;   
+    background-size: cover; 
+    padding: 150px;
+}   
+
+
+.Titulos{   
+    text-align: center; 
+    text-decoration: underline; 
+    margin-top: 20px   ;        
+    margin-bottom: 20px;
+}   
+     
+
+.lanzamientos img { 
+    width: 300px;
+    height: 450px;
+     margin-top: 20px;    
+    margin-right: 30px; 
+    margin-bottom: 20px;        
+    margin-left: 30px;    
+}  
+
+.comentario    {   
+    display: inline-block;   
+  padding-top:  100px;    
+  padding-right: 100px; 
+  padding-bottom: 100px;        
+  padding-left: 100px
+    
+}   
+
+footer{ 
+    width: 100%;    
+    height: 50px;
+    background-color: #908acb;  
+    align-items: center;    
+    position: relative; 
+    padding-bottom: 0px;    
+    min-height: 0px;
+}   
+
+.redes-sociales{        
+    color: white;   
+    padding: 10px;  
+    
+}
+.iconos{   
+    font-size: 25px;
+    color: white;   
+    padding: 10px;
+}   
+
+.pie{    
+    display: flex;  
+    justify-content: space-between; 
+    
+}   
+
+.compra {   
+    text-align: center; 
+    background-color: blue;
+}       
+.p-compra{  
+    width: 100px;    
+    height: 50px
+}   
+
+.tabla{     
+
+    background-color: blue; 
+    color: white;   
+    text-align: center; 
+    margin-top: 25px;   
+    margin-bottom: 80px;
+}
